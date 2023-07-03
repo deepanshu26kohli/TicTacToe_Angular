@@ -1,0 +1,93 @@
+.box{
+    width: 30.4vw;
+    /* border: .1rem solid white; */
+    margin: 5rem auto;
+    height: 45vh;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 0.5;
+    background-color: white;
+}
+.smallbox{
+   border: 1px solid rgb(0, 0, 0);
+   
+   width: 10vw;
+   height: 15vh;
+   color: rgb(0, 0, 0);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 7rem;
+}
+.turn{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.winner{
+   
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.left{
+    border-left: none;
+}
+.top{
+    border-top: none;
+}
+.bottom{
+    border-bottom: none;
+}
+.right{
+    border-right: none;
+}
+
+
+@media only screen and (max-width: 1800px) {
+    .box{
+        width: 44vw;
+    }
+    .smallbox{
+        width: 14.5vw;
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    .box{
+        width: 57.5vw;
+    }
+    .smallbox{
+        width: 19vw;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    .box{
+        width: 72.5vw;
+    }
+    .smallbox{
+        width: 24vw;
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .box{
+        width: 91.5vw;
+        margin: 7rem auto 2rem auto;
+    }
+    .smallbox{
+        width: 30vw;
+        font-size: 3rem;
+    }
+    .turn{
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .winner{
+       
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+    }
+  }

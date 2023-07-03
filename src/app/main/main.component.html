@@ -1,0 +1,20 @@
+
+<div class="box">
+    <div  (click)="move1()" class="smallbox left top">{{box1}}</div>
+    <div (click)="move2()" class="smallbox top">{{box2}}</div>
+    <div (click)="move3()" class="smallbox top right">{{box3}}</div>
+    <div (click)="move4()" class="smallbox left">{{box4}}</div>
+    <div (click)="move5()" class="smallbox">{{box5}}</div>
+    <div (click)="move6()" class="smallbox right">{{box6}}</div>
+    <div (click)="move7()" class="smallbox left bottom">{{box7}}</div>
+    <div (click)="move8()" class="smallbox bottom">{{box8}}</div>
+    <div (click)="move9()" class="smallbox bottom right">{{box9}}</div>
+</div>
+<div class="turn">
+    <!-- <p *ngIf = " check === '' ">Player X will start </p> -->
+    <p *ngIf = " check === 'O' ">Player X's turn </p>
+    <p *ngIf = " check === 'X' ">Player O's turn </p>
+</div>
+<div class="winner">
+    <p *ngIf = "winner.length != 0 ">{{winner}}</p>
+</div>
